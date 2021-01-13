@@ -52,7 +52,7 @@ body {
 }
 
 .searchBar::placeholder {
-  color: #b6b6b6;
+  color: rgba(255,255,255,0.4);
   text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 
@@ -83,4 +83,20 @@ body {
 
   color: white;
   text-shadow: 2px 2px rgba(0,0,0,0.66);
+}
+
+.changeName {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.changeName button {
+  /* appearance: none; */
+  background-color: rgba(255,255,255,0.66);
+  border: none;
+  outline: none;
+  
+  border-radius: 15px;
+  padding: 8px;
 }
