@@ -47,3 +47,7 @@ window.onload = function() {
   document.getElementById("fullDate").innerHTML = fullDate;
   document.getElementById("clock").innerHTML = clock;
 }
+
+function changeName() {
+  alert("To be implemented.");
+}
